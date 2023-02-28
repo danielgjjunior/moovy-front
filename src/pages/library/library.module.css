@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Kodchasan;
+}
+
+.homeSearchPage {
+  background-color: #dce0e2;
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  justify-content: space-around;
+
+  transition: background-color 0.5s ease-out; /* Adiciona uma transição suave */
+}
+
+.scrolled {
+  background-color: #333; /* Defina a cor da navbar ao descer a tela */
+  z-index: 1;
+}
+
+.logo {
+  width: 15vw;
+  position: static;
+}
+.nav {
+  color: black;
+  width: 20vw;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navScrolled {
+  color: white;
+  width: 20vw;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
+.user {
+  margin-top: 11vh;
+  width: 100vw;
+  height: 10vh;
+
+  display: flex;
+  justify-content: center;
+}
+.body {
+  width: 80vw;
+  height: max-content;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.search {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 40px;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.emoji {
+  width: 5vw;
+  height: 5vw;
+  margin-right: 2vw;
+}
+
+.player {
+  width: 5vw;
+  height: 5vw;
+  margin-left: 2vw;
+}
+.searchLink{
+  cursor: pointer;
+  color: crimson;
+  text-decoration: none;
+}
+.libraryLink{
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+.libraryLinkScroll{
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}

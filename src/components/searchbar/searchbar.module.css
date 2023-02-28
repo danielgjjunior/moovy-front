@@ -1,0 +1,30 @@
+.searchComponent {
+  display: flex;
+  align-items: center;
+}
+.searchbar {
+  margin-left: 1vw;
+  position: relative;
+  padding: 0px 10px 0px 10px;
+  width: 40vw;
+  height: 5vh;
+  border-radius: 15px;
+}
+.gif {
+  width: 5vw;
+}
+.searchIcon {
+  position: relative;
+  left: -35px;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+
+  padding: 10px;
+  border: none;
+
+  color: brown;
+}

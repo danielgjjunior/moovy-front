@@ -1,0 +1,17 @@
+.input{
+    width: 28vw;
+}
+
+.text{
+    font-family: Kodchasan;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inputText{
+    width: 27vw;
+    height: 7vh;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: kodsachan;
+}

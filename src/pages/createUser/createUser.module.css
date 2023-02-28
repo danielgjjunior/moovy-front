@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: Kodchasan;
+  }
+  
+  .loginPage {
+    background-image: url("../../assets/img/backgroundLogin.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .loginMain {
+    width: 70vw;
+    height: 70vh;
+    background-color: aliceblue;
+    display: flex;
+  }
+  .loginLeft {
+    width: 40vw;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logoMoovy {
+    margin-top: 6vh;
+  }
+  .logoWhite {
+    margin-top: 6vh;
+    width: 20vh;
+    margin-left: 27%;
+    display: none;
+  }
+  .svgMovie {
+    margin-top: 10vh;
+    height: 30vh;
+    width: 30vh;
+  }
+  .gif {
+    width: 30vh;
+  }
+  .loginRight {
+    width: 30vw;
+    height: 70vh;
+    background-image: url("../../assets/img/backgroundMobile.jpg");
+    background-size: cover;
+  }
+  
+  .loginRight span {
+    height: 40vw;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Kodchasan;
+    cursor: pointer;
+  }
+  
+  .loginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+    height: 35vh;
+    justify-content: space-between;
+  }
+  
+  .username {
+    display: flex;
+    flex-direction: column;
+  }
+  .password {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2vh;
+  }
+  
+  .username input {
+    width: 26vw;
+    height: 6vh;
+    border-radius: 5px;
+    padding: 3px;
+  }
+  .username input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+  .password input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+  
+  .password input {
+    width: 26vw;
+    height: 6vh;
+    border-radius: 5px;
+    padding: 3px;
+  }
+  
+  .form button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    width: 26vw;
+    height: 7vh;
+    border-radius: 5px;
+    margin-top: 1vh;
+    background-color: #511010;
+    padding: 3px;
+  }
+  .logo {
+    margin-top: 5vh;
+    margin-left: 35%;
+    width: 10vw;
+    height: 5vh;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .greatings {
+    font-family: kodsachan;
+    font-size: 20px;
+    margin-top: 6vh;
+    margin-left: 1vw;
+  }
+  .title{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 3vh;
+    font-family: Kodchasan;
+  }
