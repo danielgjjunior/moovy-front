@@ -141,7 +141,8 @@ export function Home() {
               director={movie.director}
               genre={movie.genre}
               imdbID={movie.imdbID}
-              writer={movie.writer}            
+              writer={movie.writer}   
+              exclusiveLibrary={false}         
               />
           ))}
         </div>
