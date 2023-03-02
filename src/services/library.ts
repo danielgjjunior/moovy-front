@@ -3,6 +3,7 @@ import axios from "axios";
 const OMDB_API_KEY = "92ff6459";
 
 interface MovieData {
+  id:string;
   title: string;
   year: string;
   genre: string;
@@ -19,9 +20,12 @@ export const getUserMovies = async (userId: string) => {
   const API_URL = "http://localhost:3000";
 
   try {
-    const { data } = await axios.get(`${API_URL}/library/userMovies?userId=${userId}`);
+    const { data } = await axios.get(
+      `${API_URL}/library/userMovies?userId=${userId}`
+    );
 
     return data.map((movieResponse: any) => ({
+      id:movieResponse.movie.id,
       title: movieResponse.movie.title,
       year: movieResponse.movie.year,
       genre: movieResponse.movie.genre,

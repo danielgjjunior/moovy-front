@@ -1,6 +1,4 @@
 import styles from 'createUser.module.css'
-
-import styles from "./login.module.css";
 import logoWhite from "../../assets/img/MoovyWhite.png";
 import logoBlack from "../../assets/img/MoovyBlack.png";
 import movieGif from "../../assets/gif/movie.gif";

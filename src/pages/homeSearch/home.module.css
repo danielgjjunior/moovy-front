@@ -21,7 +21,7 @@
   position: fixed;
   align-items: center;
   width: 100vw;
-  height: 10vh;
+  height: 15vh;
   justify-content: space-around;
 
   transition: background-color 0.5s ease-out; /* Adiciona uma transição suave */
@@ -54,7 +54,7 @@
   justify-content: space-around;
 }
 .user {
-  margin-top: 11vh;
+  margin-top: 15vh;
   width: 100vw;
   height: 10vh;
 

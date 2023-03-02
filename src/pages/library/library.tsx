@@ -12,6 +12,7 @@ import { getUserMovies } from "../../services/library";
 
 
 interface MovieData {
+  id:string;
   title: string;
   year: string;
   genre: string;
@@ -28,6 +29,7 @@ export function Library() {
   const [initialized, setInitialized] = useState(false);
 
   interface Movie {
+    id:string;
     imdbID: string;
     title: string;
     year: string;
@@ -50,6 +52,7 @@ export function Library() {
         if (response) {
           const filteredMovies: Movie[] = response.map((movie: MovieData) => {
             return {
+              id:movie.id,
               imdbID: movie.imdbID,
               title: movie.title,
               year: movie.year,
@@ -124,6 +127,7 @@ export function Library() {
         <div className={styles.cards}>
           {movies.map((movie) => (
             <Card
+              id={movie.id}
               key={movie.imdbID}
               title={movie.title}
               year={movie.year}
